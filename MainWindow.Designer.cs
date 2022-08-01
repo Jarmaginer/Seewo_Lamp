@@ -33,6 +33,7 @@ partial class MainWindow
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -66,11 +67,22 @@ partial class MainWindow
             this.label1.Text = "EarlyBuild b.0.2";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(68, 149);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(413, 89);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "时钟";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1010, 497);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -87,4 +99,5 @@ partial class MainWindow
     private Button button1;
     private Button button2;
     private Label label1;
+    private Button button3;
 }

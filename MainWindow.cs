@@ -26,4 +26,10 @@ public partial class MainWindow : Form
     {
 
     }
+
+    private void button3_Click(object sender, EventArgs e)
+    {
+        var win = new Clock();
+        win.Show(this);
+    }
 }
