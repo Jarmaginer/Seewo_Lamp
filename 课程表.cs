@@ -25,7 +25,7 @@ namespace Seewo_Lamp
         public 课程表()
         {
             // 在此处设置窗口样式
-            Size = new System.Drawing.Size(2, 520);
+            Size = new System.Drawing.Size(2, 550);
             var style = UseExtendedStyles<LayeredWindowStyle>();
 
         }
