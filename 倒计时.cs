@@ -27,18 +27,10 @@ namespace Seewo_Lamp
             Size = new System.Drawing.Size(800, 150);
             var style = UseExtendedStyles<LayeredWindowStyle>();
 
-
-
-
-
-
         }
 
         protected override void OnReady()
         {
-
-
-
 
             // 在此处进行浏览器相关操作
 
